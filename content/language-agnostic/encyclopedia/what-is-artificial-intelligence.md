@@ -1,13 +1,13 @@
 ---
 Title: "What is Artificial Intelligence?"
 Subjects:
-  - "computer science"
-  - "data science"
-  - "machine learning"
+  - "Computer Science"
+  - "Data Science"
+  - "Machine Learning"
 Tags:
-  - "artificial intelligence"
-  - "data science"
-  - "deep learning"
+  - "Artificial Intelligence"
+  - "Data Science"
+  - "Deep Learning"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/build-deep-learning-models-with-tensorflow"
