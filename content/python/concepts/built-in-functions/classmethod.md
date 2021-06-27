@@ -38,13 +38,3 @@ Student.print_name = classmethod(Student.print_name)
 
 Student.print_name()
 ```
-
-## Example 2
-
-Use `classmethod()` to return the absolute value of the `numbers` list:
-
-```codebyte/python
-numbers = [-19.2, 27.3, 48, -115, 302.7, -421, -2011]
-
-print([abs(number) for number in numbers])
-```
