@@ -19,7 +19,7 @@ Converts a given function into a class method.
 ## Syntax
 
 ```py
-abs(n)
+classmethod(function)
 ```
 
 ## Example 1
