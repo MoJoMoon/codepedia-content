@@ -20,7 +20,7 @@ Converts a given function into a class method.
 ## Syntax
 
 ```py
-abs(n)
+complex(real, imaginary)
 ```
 
 ## Example 1
