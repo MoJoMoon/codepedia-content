@@ -24,8 +24,8 @@ compile(source, filename, mode)
 ```
 ## Parameters
 
-* source - a normal string, a byte string, or an AST object
-* filename - file from which the code was read. If it wasn't read from a file, you can give a name yourself
+* source - string or AST object
+* filename - the file from which the code is being read
 * mode - Either exec or eval or single.
 * eval - accepts only a single expression.
 * exec - It can take a code block that has Python statements, class and functions, and so on.
