@@ -40,6 +40,7 @@ Browsers
 Bubble Sort  
 Catch  
 Characters
+Character Encoding
 Chatbots  
 Classes
 Code Editors
