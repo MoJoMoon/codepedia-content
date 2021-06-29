@@ -25,7 +25,7 @@ classmethod(function)
 
 ## Example 1
 
-Use `classmethod()` to return the absolute value of `-6.5`:
+Use `classmethod()` to create the `Codecademy` class method:
 
 ```py
 class Student:
@@ -33,7 +33,7 @@ class Student:
     name = "Codecademy"
 
     def print_name(obj):
-        print("The name is : ", obj.name)
+        print("Welcome to...", obj.name)
 
 Student.print_name = classmethod(Student.print_name)
 
