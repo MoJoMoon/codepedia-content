@@ -26,7 +26,7 @@ compile(source, filename, mode)
 
 * source - string or AST object
 * filename - the file from which the code is being read
-* mode - Either exec or eval or single.
+* mode - Options: Either exec or eval or single.
 * eval - accepts only a single expression.
 * exec - It can take a code block that has Python statements, class and functions, and so on.
 * single - if it consists of a single interactive statement
