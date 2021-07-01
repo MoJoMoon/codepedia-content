@@ -26,10 +26,10 @@ compile(source, filename, mode)
 
 * source - string or AST object
 * filename - the file from which the code is being read
-* mode - Options: Either exec or eval or single.
-* eval - accepts only a single expression.
-* exec - It can take a code block that has Python statements, class and functions, and so on.
-* single - if it consists of a single interactive statement
+* mode - Options: `exec`, `eval`, or `single`.
+  - `eval` - accepts only a single expression.
+  - `exec` - It can take a code block that has Python statements, class and functions, and so on.
+  - `single` - if it consists of a single interactive statement
 * flags (optional) and dont_inherit (optional) - controls which future statements affect the compilation of the source. Default Value: 0
 * optimize (optional) - optimization level of the compiler. Default value -1.
 

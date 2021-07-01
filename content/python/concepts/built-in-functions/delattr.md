@@ -14,29 +14,28 @@ Catalog Content:
 
 ## Definition
 
-Allows the user to delete the named attribute from the object.
+Allows the user to delete attributes from an object.
 
 ## Syntax
 
 ```py
-abs(n)
+delattr(object, name)
 ```
+
+## Parameters
+
+* object - The object to have an attribute removed.
+
+* name - The attribute to be removed from the object.
 
 ## Example 1
 
-Use `delattr()` to return the absolute value of `-6.5`:
+Use `delattr()` to remove the `roars` attribute from the  `Lion` class:
 
 ```py
-print(abs(-6.5))
-# Output: 6.5
-```
+class Lion:
+  yawns = "I am tired."
+  roars = "I am hungry."
 
-## Example 2
 
-Use `delattr()` to return the absolute value of the `numbers` list:
-
-```codebyte/python
-numbers = [-19.2, 27.3, 48, -115, 302.7, -421, -2011]
-
-print([abs(number) for number in numbers])
 ```
