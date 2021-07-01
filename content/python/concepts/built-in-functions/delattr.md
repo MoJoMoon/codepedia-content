@@ -30,12 +30,24 @@ delattr(object, name)
 
 ## Example 1
 
-Use `delattr()` to remove the `roars` attribute from the  `Lion` class:
+Use `delattr()` to remove the `position` attribute from the  `Person1` class:
 
 ```py
-class Lion:
-  yawns = "I am tired."
-  roars = "I am hungry."
+class Person1:
+    name = "Harry"
+    age = "35"
+    position = "Professor"
 
+employee1 = Person1()
 
+print("Employee Name: ", employee1.name)
+print("Employee Age: ", employee1.age)
+print("Employee Position: ", employee1.position)
+
+delattr(Person1, "position")
+
+print("----  UPDATE  ----")
+print("Employee Name: ", employee1.name)
+print("Employee Age: ", employee1.age)
+print("Employee Position: ", employee1.position)
 ```
