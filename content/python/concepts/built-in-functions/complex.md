@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-Converts a given function into a class method.
+Converts a given string into a ccomplex number.
 
 ## Syntax
 
@@ -25,11 +25,8 @@ complex(real, imaginary)
 
 ## Example 1
 
-Use `complex()` to return the absolute value of `-6.5`:
-
-Here `complex()` will use `0` as the default imaginary value
-
+Use `complex()` to convert the string `"1+7j"` into a complex number:
 ```py
-print(complex(1))
-# Output: 6.5
+num = complex("1+7j")
+print(num)
 ```

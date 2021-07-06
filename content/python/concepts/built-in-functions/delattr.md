@@ -49,5 +49,7 @@ delattr(Person1, "position")
 print("----  UPDATE  ----")
 print("Employee Name: ", employee1.name)
 print("Employee Age: ", employee1.age)
+
+# Will cause an AttributeError because attribute is removed  
 print("Employee Position: ", employee1.position)
 ```
