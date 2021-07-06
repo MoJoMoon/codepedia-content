@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-Converts a given string into a ccomplex number.
+Converts a given string into a complex number.
 
 ## Syntax
 
