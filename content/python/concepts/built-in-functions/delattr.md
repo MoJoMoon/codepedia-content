@@ -25,7 +25,6 @@ delattr(object, name)
 ## Parameters
 
 * object - The object to have an attribute removed.
-
 * name - The attribute to be removed from the object.
 
 ## Example 1
